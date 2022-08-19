@@ -1,2 +1,4 @@
-github.com/jessjenkins/jj-service v0.0.0-20201009081023-855e9d834c6f h1:krlzVM826QxHzIEmawfN1pbW2vWX0xx0SaeiR7DApLE=
-github.com/jessjenkins/jj-service v0.0.0-20201009081023-855e9d834c6f/go.mod h1:LZZzh9jD6FnueTIkd/knY1BLPAtPZKnVHacS/2/w458=
+github.com/jessjenkins/jjs v0.0.0-20220819230604-127972eae352 h1:1XujEcTXmRYwS4uV0U7UuX5pEdfqSfPqxGM7FhCueok=
+github.com/jessjenkins/jjs v0.0.0-20220819230604-127972eae352/go.mod h1:EZROOfxtexnCRcxuTcmrShNpHmUnENcnAvPD4PN7+vw=
+github.com/jessjenkins/jjs v0.0.1 h1:facua6XwqPPdb7y7+Mkufk+SDRYFw/xcXMAZ0rZowoM=
+github.com/jessjenkins/jjs v0.0.1/go.mod h1:EZROOfxtexnCRcxuTcmrShNpHmUnENcnAvPD4PN7+vw=

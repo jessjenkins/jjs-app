@@ -3,22 +3,22 @@ package main
 import (
 	"fmt"
 
-	jj_service "github.com/jessjenkins/jj-service"
-	"github.com/jessjenkins/jj-service-app/services"
+	"github.com/jessjenkins/jjs"
+	"github.com/jessjenkins/jjs-app/services"
 )
 
 func main() {
 	fmt.Println("Starting example app")
 
-	service := jj_service.NewService()
+	runner := jjs.NewRunner()
 
-	a := service.AddSubService("a",services.NewUseless("A"))
-	b := service.AddSubService("b",services.NewUseless("B"), a)
-	c := service.AddSubService("c",services.NewUseless("C"), a)
-	service.AddSubService("d", services.NewUseless("D"), b, c)
-	service.AddSubService("e", services.NewUseless("E"))
+	a := runner.AddService("a", services.NewUseless("A"))
+	b := runner.AddService("b", services.NewUseless("B"), a)
+	c := runner.AddService("c", services.NewUseless("C"), a)
+	runner.AddService("d", services.NewUseless("D"), b, c)
+	runner.AddService("e", services.NewUseless("E"))
 
-	service.Run()
+	runner.Run()
 
 	fmt.Println("Closing example app")
 }

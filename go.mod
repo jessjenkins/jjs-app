@@ -1,6 +1,5 @@
-module github.com/jessjenkins/jj-service-app
+module github.com/jessjenkins/jjs-app
 
-go 1.15
+go 1.18
 
-require github.com/jessjenkins/jj-service v0.0.0-20201009081023-855e9d834c6f
-
+require github.com/jessjenkins/jjs v0.0.1
