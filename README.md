@@ -1,3 +1,3 @@
-# jj-service-app
+# jjs-app
 Proof of concept example app using generic service library
-[jj-service](https://github.com/jessjenkins/jj-service).
+[jjs](https://github.com/jessjenkins/jjs).
